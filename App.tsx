@@ -1,13 +1,8 @@
-import Home from './src/screens/Home';
 import React from 'react';
-import {View} from 'react-native';
+import RootNavigator from './src/navigation/RootNavigator';
 
 const App = () => {
-  return (
-    <View>
-      <Home />
-    </View>
-  );
+  return <RootNavigator />;
 };
 
 export default App;
